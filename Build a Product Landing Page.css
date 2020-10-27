@@ -1,0 +1,53 @@
+#header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: silver;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  #header {
+    display: grid;
+  }
+}
+#header-img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  margin-left: 20px;
+}
+#nav-bar {
+}
+#main {
+  background-color: silver;
+  width: 100%;
+  margin-top: 76px;
+  padding-top: 10px;
+}
+#hero {
+  display: flex;
+  justify-content: center;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  flex-direction: column;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: centr;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: centr;
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}

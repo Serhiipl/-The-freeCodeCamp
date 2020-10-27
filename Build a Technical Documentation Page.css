@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar {
+    height: 40%;
+    min-height: 90px;
+  }
+}
+body {
+  display: flex;
+  justify-content: space-between;
+}
+#navbar-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  width: 35%;
+  min-width: 350px;
+  overflow: auto;
+}
+.nav-link {
+  display: block;
+  background-color: yellow;
+  border-top: 2px solid black;
+  height: 35px;
+  line-height: 35px;
+}
+#main-doc {
+  width: 65%;
+}
